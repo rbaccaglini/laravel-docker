@@ -9,7 +9,6 @@ services:
       - ./:/user/share/nginx
     networks:
       - app-network
-
   mysql-app:
     image: mysql:5.7.22
     ports:
